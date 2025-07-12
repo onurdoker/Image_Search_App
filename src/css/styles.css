@@ -53,3 +53,71 @@ button {
 button:hover {
   background-color: #6C8CFF;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  width: 1440px;
+  margin: 0 auto 36px;
+}
+
+.card {
+  list-style: none;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.place-for-image {
+  width: 360px;
+  height: 152px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.info-text {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
